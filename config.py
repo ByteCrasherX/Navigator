@@ -10,20 +10,20 @@ def get_user_list(config, key):
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "API_HASH"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    BOT_USERNAME = "BOT_USERNAME"
-    BOT_NAME = ""
-    BOT_ID = ""
-    OWNER_ID = Your_Id  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "YourUsername"
+    API_ID = 27169529  # integer value, dont use ""
+    API_HASH = "5d67602a4e0bbfabe669c0febeaf63b6"
+    TOKEN = "6513948062:AAGjiuULDk9djlFlC0SuG2-lMgSKWfq2bJc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_USERNAME = "GroupNavigatorBot"
+    BOT_NAME = "ɢʀᴏᴜᴘ ɴᴀᴠɪɢᴀᴛᴏʀ"
+    BOT_ID = "6513948062"
+    OWNER_ID = 6542673293  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "NoobZen"
     START_IMG = "https://graph.org/file/644fddccf30ac191fc895.jpg"
     ALIVE_IMG = "https://graph.org/file/36c17c0f22aeea9c99895.jpg"
-    UPDATE_CHANNEL = "<channel-username>" # Your own channel for updates, do not add the @
-    SUPPORT_CHAT = "<support-chat-username>"  # Your own group for support, do not add the @
-    JOIN_LOGGER = (-10012345678)  # A new channel ID To log who started the bot. Starting with "-100", Put inside braces
-    EVENT_LOGS = (-10012345678)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    UPDATE_CHANNEL = "ZenBotX" # Your own channel for updates, do not add the @
+    SUPPORT_CHAT = "QuirkySquad"  # Your own group for support, do not add the @
+    JOIN_LOGGER = (-1001978176529)  # A new channel ID To log who started the bot. Starting with "-100", Put inside braces
+    EVENT_LOGS = (-1001978176529)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
     MONGO_DB_URI = "" 
